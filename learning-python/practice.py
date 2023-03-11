@@ -62,24 +62,26 @@ print(z)
 #unpack a collection
 # If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
 
-# fruits = ["apple", "banana", "cherry"]
-# x, y, z = fruits
-# print(x)
-# print(y)
-# print(z)
+"""
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
 
-# x = "Python"
-# y = "is"
-# z = "awesome"
-# print(x, y, z)
-
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+"""
 
 # Global Variables
 # These are variables created outside of a function and can be used inside the function
-
+"""
 x = "awesome"
 
 def myfunc():
   print("Python is " + x)
 
 myfunc()
+"""
